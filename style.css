@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #f8f7f3;
+ }
+
+ .navbar {
+  background-color:transparent;
+  padding: 0;
+  position: relative;
+    
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+
+.collapse.navbar-collapse {
+  flex: 1 1 598.816px;
+  
+}
+
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ .navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+header{
+  box-sizing:border-box;
+  display:block;
+  float:none;
+  line-height:25.6px;
+  position:relative ;
+  z-index:4;
+}
+a{
+  line-height: 70px;
+  font-weight: 100%;
+  font-style: inherit;
+  font-size: inherit; 
+    font-weight: 500; 
+}
+.navbar-brand img{
+    width: 215px;
+    height: 65.3667px;
+    display: inline;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .navbar-nav .nav-link {
+     color: black;
+     font-family: "Roboto" sans-serif;
+    font-size: 17px; 
+    font-weight: 500;
+    padding: 10px 20px; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; 
+  }
+
+  
+.intro {
+    margin-bottom: 36px;
+    text-align: center;}
+    
+    .intro h1 {
+      font-family: "Roboto condensed", sans-serif;
+      font-weight: 700px;
+      font-size: 2.625rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .info-box {
+        align-items: center;
+        display: flex;
+    }
+    
+    .info-box img {
+        width: 90px;
+    }
+
+    section{
+      background-color: #f8f7f3;
+    }
+   .service {
+    
+    padding: 32px; 
+    margin-bottom: auto; 
+    background-color: #fff; 
+    text-align: center; 
+    box-sizing: border-box; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  .service h5 {
+    text-align: left;
+    font-family: "Roboto condensed", sans-serif;
+    margin-top: 24px; 
+    margin-bottom: 14px; 
+  }
+  .service p{
+  color: #626156;
+  text-align: left;
+  }
+  .service img {
+    width: unset;
+  }
+
+  
